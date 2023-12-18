@@ -32,4 +32,18 @@ class RegisterRequest extends FormRequest
             ],
         ];
     }
+    public function messages() {
+        return [
+            'name.required' => 'El Nombre es obligatorio',
+            'email.required' => 'El Email es obligatorio',
+            'email.email' => 'Ingresá un Email válido',
+            'email.unique' => 'Ya existe un usuario con este Email',
+            'password.required' => 'El Password es obligatorio',
+            'password.confirmed' => 'El Password y su confirmación no coinciden',
+            'password.min' => 'El Password debe tener al menos 8 caracteres',
+            'password.letters' => 'El Password debe contener al menos una letra',
+            'password.symbols' => 'El Password debe contener al menos un símbolo',
+            'password.numbers' => 'El Password debe contener al menos un número',
+        ];
+    }
 }
