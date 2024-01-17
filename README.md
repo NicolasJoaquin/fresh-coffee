@@ -8,6 +8,9 @@ Este proyecto se integra con el proyecto FreshCoffee (Frontend) y está desarrol
 
 - [Laravel 10](https://laravel.com/): Framework de PHP utilizado para el desarrollo del backend.
 - [Laravel Sanctum](https://laravel.com/docs/10.x/sanctum): Utilizado para la autenticación en la API.
+- [Carbon](https://carbon.nesbot.com/): Utilizado para el manejo de fechas.
+- [Eloquent](https://laravel.com/docs/10.x/eloquent): ORM de Laravel para gestionar la base de datos.
+- [MySQL](https://www.mysql.com/): Base de datos relacional.
 
 ## Integración con FreshCoffee (Frontend)
 
@@ -20,29 +23,29 @@ Este proyecto se integra con el frontend de FreshCoffee, permitiendo la comunica
 - **Usuarios y Roles:**
   - Gestión de usuarios con diferentes roles y permisos.
   - Control de acceso basado en roles para garantizar la seguridad de la aplicación.
+  - Uso de Laravel Sanctum para la autenticación.
+
+- **Iniciar Sesión y Cierre de Sesión:**
+  - Endpoints para el inicio y cierre de sesión de usuarios.
+
+- **Registro de Usuarios:**
+  - Endpoint para registrar nuevos usuarios.
 
 ### Pedidos
 
-- **Órdenes:**
-  - API para gestionar las órdenes emitidas por los usuarios compradores.
-  - Resumen de productos, cliente y total del pedido.
+- **Pedidos:**
+  - Endpoints para crear, consultar y actualizar las órdenes.
+  - Vinculación de órdenes con usuarios con Eloquent.
+  - Vinculación de órdenes con productos y sus cantidades con Eloquent.
 
 ### Productos y Categorías
 
-- **Gestión de Productos:**
-  - API para la administración de productos en la tienda.
-  - Asociación de productos a categorías.
+- **Productos:**
+  - Endpoints para consultar y actualizar los productos en la tienda.
+  - Asociación de productos a categorías con Eloquent.
 
 - **Categorías:**
-  - API para la gestión de categorías de productos.
-
-### Autenticación
-
-- **Iniciar Sesión y Cierre de Sesión:**
-  - API para el inicio de sesión de usuarios y cierre de sesión.
-
-- **Registro de Usuarios:**
-  - Posibilidad de registrar nuevos usuarios.
+  - Endpoint para consultar las categorías.
 
 ## Estructura del Proyecto
 
