@@ -160,7 +160,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Dona de Fresa",
+                'name' =>  "Dona de Frutilla",
                 'price' => 19.9,
                 'image' => "donas_03",
                 'category_id' => 4,
@@ -178,7 +178,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Dona glass con Chispas Sabor Fresa",
+                'name' =>  "Dona glass con Chispas Sabor Frutilla",
                 'price' => 19.9,
                 'image' => "donas_05",
                 'category_id' => 4,
@@ -232,7 +232,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Paquete de 3 Variadas",
+                'name' =>  "Paquete de 3 Donas Variadas",
                 'price' => 39.9,
                 'image' => "donas_11",
                 'category_id' => 4,
@@ -259,7 +259,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Dona Chocolate y Coco",
+                'name' =>  "Dona de Chocolate y Coco",
                 'price' => 19.9,
                 'image' => "donas_14",
                 'category_id' => 4,
@@ -268,7 +268,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Paquete Galletas de Chocolate",
+                'name' =>  "Paquete de Galletas de Chocolate",
                 'price' => 29.9,
                 'image' => "galletas_01",
                 'category_id' => 6,
@@ -277,7 +277,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Paquete Galletas de Chocolate y Avena",
+                'name' =>  "Paquete de Galletas de Chocolate y Avena",
                 'price' => 39.9,
                 'image' => "galletas_02",
                 'category_id' => 6,
@@ -349,7 +349,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Hamburguesa Queso y Pepinos",
+                'name' =>  "Hamburguesa de Queso y Pepinos",
                 'price' => 59.9,
                 'image' => "hamburguesas_04",
                 'category_id' => 2,
@@ -394,7 +394,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "4 Rebanadas de Pay de Queso",
+                'name' =>  "4 Porciones de Cheesecake",
                 'price' => 69.9,
                 'image' => "pastel_01",
                 'category_id' => 5,
@@ -412,7 +412,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Croissants De la casa",
+                'name' =>  "Croissants de la casa",
                 'price' => 39.9,
                 'image' => "pastel_03",
                 'category_id' => 5,
@@ -421,7 +421,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Pay de Queso",
+                'name' =>  "Cheesecake",
                 'price' => 19.9,
                 'image' => "pastel_04",
                 'category_id' => 5,
@@ -430,7 +430,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Pastel de Chocolate",
+                'name' =>  "Torta de Chocolate",
                 'price' => 29.9,
                 'image' => "pastel_05",
                 'category_id' => 5,
@@ -439,7 +439,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Rebanada Pastel de Chocolate",
+                'name' =>  "Porción de torta de Chocolate",
                 'price' => 29.9,
                 'image' => "pastel_06",
                 'category_id' => 5,
@@ -502,7 +502,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'name' =>  "Pizza Tocino",
+                'name' =>  "Pizza Panceta",
                 'price' => 69.9,
                 'image' => "pizzas_07",
                 'category_id' => 3,
